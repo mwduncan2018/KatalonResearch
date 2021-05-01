@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a flight and then verify the flight has been successfully added using the Web API</description>
+   <name>Flight API using firstname and lastname</name>
+   <tag>api</tag>
+   <comment></comment>
+   <testCaseGuid>abc65b50-6f4a-454d-85b4-58444bcdade2</testCaseGuid>
+</TestCaseEntity>
