@@ -29,7 +29,7 @@ WebUI.click(findTestObject('LoginPage/LoginButton'))
 
 WebUI.verifyElementPresent(findTestObject('LoginPage/ValidationMessageInvalidUsernamePassword'), 0)
 
-'Then a validation message is displayed stating the username is required'
+'Then a validation message is displayed stating the username and password combination is invalid'
 WebUI.verifyElementText(findTestObject('LoginPage/ValidationMessageInvalidUsernamePassword'), 'The username/password combination is invalid.')
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
