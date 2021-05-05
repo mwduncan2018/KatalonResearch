@@ -22,7 +22,7 @@ WebUI.openBrowser('http://localhost:60030/Login')
 WebUI.setText(findTestObject('LoginPage/Username'), 'mduncan')
 
 'And I enter a valid password'
-WebUI.setText(findTestObject('LoginPage/Password'), 'cucumber')
+WebUI.setText(findTestObject('LoginPage/Password'), 'password_is_cucumber')
 
 'When the login form is submitted'
 WebUI.click(findTestObject('LoginPage/LoginButton'))
